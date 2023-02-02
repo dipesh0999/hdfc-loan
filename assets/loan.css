@@ -218,7 +218,14 @@ input:focus{
 #check-bttn-1:checked ~ .accordion-1, #check-bttn-2:checked ~ .accordion-2, #check-bttn-3:checked ~ .accordion-3,
 #check-bttn-4:checked ~ .accordion-4
 {
-    height: 100px;
+    padding: 20px 0px;
+    display: block;
+}
+.accordion{
+    font-weight: 500;
+    font-size: 18px;
+    color: #868585;
+    display: none;
 }
 @media screen and (max-width:499px) {
     .navigaions{
@@ -348,5 +355,8 @@ input:focus{
     }
     .check-contain{
         font-size: 16px;
+    }
+    .accordion{
+        font-size: 14px;
     }
 }
